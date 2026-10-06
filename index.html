@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!--====================overall=====================-->
+    <div class="container">
+
+
+
+        <!--=============navbar===============-->
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-star-and-crescent fa-flip"></i> LUNAR
+            </div>
+            <label for="abc">
+                <i class="fa-solid fa-bars menu"></i>
+            </label>
+            <input id="abc" type="checkbox" name="demo" />
+            <div class="items">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#journey">journey</a>
+                <a href="#sound">sounds</a>
+                <a href="#routine">Routine</a>
+            </div>
+        </nav>
+
+        <!--=============Hero=================-->
+        <section class="hero" id="home">
+            <!--=============hero content========-->
+            <div class="content">
+                <h5>YOUR NIGHT TIME JOURNEY BEGINS</h5>
+                <h1>SLOW DOWN.</h1>
+                <h1>BREATHE.</h1>
+                <h1>SLEEP.</h1>
+                <p>A peaceful space for night time</p>
+                <button>click here</button>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <video class="vedio1 " autoplay loop muted>
+                <source src="./ved.mp4" type="video/mp4">
+
+            </video>
+            <div class="aboutcontent">
+                <!-- <h1>ABOUT</h1> -->
+                <P>LUNARA is a quiet digital space created for the moments between your day and your dreams.</P>
+                <p>In a world filled with screens, notification, and constantt activity, LUNARA gives you a moment to
+                    pause, breathe, and slow down</p>
+            </div>
+
+            <div class="aboutcontainer">
+                <div class="box box1">
+                    <div class="circle">
+                        <i class="fa-solid fa-moon fa-beat-fade"></i>
+                    </div>
+                    <h2>Journey</h2>
+                    <p>A step by step experience to disconnecting to resting</p>
+                </div>
+                <div class="box box2">
+                    <div class="circle">
+                        <i class="fa-solid fa-headphones fa-beat-fade"></i>
+                    </div>
+                    <h2>Sounds</h2>
+                    <p>A Gentle sound to create peaceful nighttime </p>
+                </div>
+                <div class="box box3">
+                    <div class="circle">
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                    </div>
+                    <h2>Routine</h2>
+                    <p>Simple habits to keep you daily routine</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="journey" id="journey">
+
+
+            <div class="weekly-card">
+                <div class="section-title">
+                    <div>
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>WEEKLY SLEEP</span>
+                    </div>
+
+                </div>
+
+                <!-- GRAPH -->
+                <div class="graph">
+                    <!-- Y AXIS -->
+                    <div class="y-axis">
+                        <span>10h</span>
+                        <span>8h</span>
+                        <span>6h</span>
+                        <span>4h</span>
+                        <span>2h</span>
+                        <span>0h</span>
+                    </div>
+                    <!-- GRAPH AREA -->
+                    <div class="graph-area">
+                        <div class="grid-line line-10"></div>
+                        <div class="grid-line line-8"></div>
+                        <div class="grid-line line-6"></div>
+                        <div class="grid-line line-4"></div>
+                        <div class="grid-line line-2"></div>
+
+
+                        <!-- BAR MON -->
+                        <div class="day mon">
+                            <span class="sleep-value">7h 20m</span>
+                            <div class="bar g1"></div>
+                            <span class="day-name">Mon</span>
+                        </div>
+
+                        <!-- BAR TUE -->
+                        <div class="day tue">
+                            <span class="sleep-value">6h 45m</span>
+                            <div class="bar g2"></div>
+                            <span class="day-name">Tue</span>
+                        </div>
+
+                        <!-- BAR WED -->
+                        <div class="day wed">
+                            <span class="sleep-value">8h 10min</span>
+                            <div class="bar g3"></div>
+                            <span class="day-name">Wed</span>
+                        </div>
+
+                        <!-- BAR THU -->
+                        <div class="day thu">
+                            <span class="sleep-value">7h 05m</span>
+                            <div class="bar g4"></div>
+                            <span class="day-name">Thur</span>
+                        </div>
+
+
+
+                        <!-- BAR FRI -->
+
+                        <div class="day fri">
+                            <span class="sleep-value">6h 30m</span>
+                            <div class="bar g5"></div>
+                            <span class="day-name">Fri</span>
+                        </div>
+
+
+
+                        <!-- BAR SAT -->
+
+                        <div class="day sat">
+                            <span class="sleep-value">8h 40min</span>
+                            <div class="bar g6"></div>
+                            <span class="day-name">sat</span>
+                        </div>
+
+
+
+                        <!-- BAR SUN -->
+
+                        <div class="day sun">
+                            <span class="sleep-value">8 05m</span>
+                            <div class="bar g7"></div>
+                            <span class="day-name">Sun</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="stats-card">
+
+                <!-- AVERAGE -->
+                <div class="average">
+                    <div class="circlerou">
+                        <div class="circlerou-content">
+                            <i class="fa-regular fa-moon"></i>
+                            <strong>7h 32m</strong>
+                            <span>AVG. SLEEP</span>
+                            <span>THIS WEEK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STAT ITEM -->
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="stat-name">BEST NIGHT</div>
+                    <h6>8h 40m</h6>
+                    <p>(Sat)</p>
+                </div>
+
+                <!-- STAT ITEM -->
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fa-regular fa-moon"></i>
+                    </div>
+                    <div class="stat-name">LOWEST NIGHT</div>
+                    <h6>6h 30m</h6>
+                    <p>(Fri)</p>
+                </div>
+
+                <!-- STAT ITEM -->
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <div class="stat-name">TOTAL SLEEP</div>
+                    <h6>52h 44m</h6>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sounds" id="sound">
+            <div class="sound-wave-icon">
+                〰〰
+            </div>
+
+            <h1>
+                SOUNDS FOR SLOWER NIGHTS
+            </h1>
+
+            <p>
+                Choose a sound, close your eyes, and let the night
+                <br>
+                become a little quieter.
+            </p>
+            <div class="soundplay">
+                <div class="sound-track">
+                    <div class="soundbox rain">
+                        <img class="sound-image"
+                            src="https://static.vecteezy.com/system/resources/thumbnails/042/195/835/small_2x/ai-generated-rainy-winter-background-free-photo.jpg">
+
+                        <audio controls>
+                            <source src="rain.mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Gentle Rain
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox ocean waves">
+                        <img class="sound-image" src="https://images3.alphacoders.com/102/thumb-1920-1020672.jpg">
+                        <audio controls>
+                            <source src="ocean.mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Ocean waves
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox forestnight">
+                        <img class="sound-image"
+                            src="https://static.vecteezy.com/system/resources/previews/030/602/436/large_2x/beautiful-forest-and-night-sky-painting-ai-generative-free-photo.jpg">
+                        <audio controls>
+                            <source src=".mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Forest night
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox fireplace">
+                        <img class="sound-image"
+                            src="https://tse1.mm.bing.net/th/id/OIP.y9mnU65299uA733T2sDYBAHaE1?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                        <audio controls>
+                            <source src=".mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Fire place
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox softwind">
+                        <img class="sound-image"
+                            src="https://tse3.mm.bing.net/th/id/OIP.BWhH-EhVbS0VicYMs0FcVAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                        <audio controls>
+                            <source src=".mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Soft wind
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox rain">
+                        <img class="sound-image"
+                            src="https://static.vecteezy.com/system/resources/thumbnails/042/195/835/small_2x/ai-generated-rainy-winter-background-free-photo.jpg">
+
+                        <audio controls>
+                            <source src="rain.mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Gentle Rain
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="soundbox ocean waves">
+                        <img class="sound-image" src="https://images3.alphacoders.com/102/thumb-1920-1020672.jpg">
+                        <audio controls>
+                            <source src="ocean.mp3">
+                        </audio>
+                        <div class="player-title">
+
+                            <p>NOW PLAYING</p>
+
+                            <h2 id="songName">
+                                Ocean waves
+                            </h2>
+
+                            <p id="songDescription">
+                                Soft rainfall for a calm and cozy atmosphere.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="routine" id="routine">
+
+
+            <!-- <div class="jourcontent"> -->
+            <h1>YOUR NIGHTTIME JOURNEY</h1>
+
+            <div class="journeybox">
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">01</div>
+                        <img src="phone.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>DISCONNECT</h4>
+                        <p>put your phone away and give your mind break</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">02</div>
+                        <img src="lamp.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>DIM LIGHT</h4>
+                        <p>Create a softer, quiter,atmosphere around you</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">03</div>
+                        <img src="breathe.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>BREATHE</h4>
+                        <p>Take a few slow breathe and let your body relax</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">04</div>
+                        <img src="head.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>UNWIND</h4>
+                        <p>Listen to calming sounds, stretch, read, or simply sit quietly</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">05</div>
+                        <img src="relax.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>REFLECT</h4>
+                        <p>Think about something good from your day.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="jbox front">
+                        <div class="stepcircle">06</div>
+                        <img src="sleep.png">
+                    </div>
+                    <div class="jbox back">
+                        <h4>REST</h4>
+                        <p>Close your eyes and let the day come to an end</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="stars">
+                    <i class="fa-solid fa-star fa-fade"></i>
+                    <i class="fa-regular fa-star fa-fade"></i>
+                    <i class="fa-solid fa-star fa-fade"></i>
+                    <i class="fa-regular fa-star fa-fade"></i>
+                </div>
+                <h2>
+                    Find your sound. Find your stillness.
+                </h2>
+
+                <button class="continue-btn">
+                    CONTINUE TO SLEEP SPACE →
+                </button>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+</body>
+
+</html>
